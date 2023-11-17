@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title></title>
+   <style>
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+.button1 {background-color: #04AA6D;border-radius: 20px;}/* Green */
+.button2 {background-color: #FF0000;border-radius: 20px;}/* Red */
+  .flex-parent {
+  display: flex;
+}
+
+.jc-center {
+  justify-content: center;
+}
+</style>
+</head>
+<h2><center>
+  Lines bohot besi ar ig boring o hoibo tumar lagia<br>
+  Hmm.🤔So... I have an idea<br>
+  Better hoibo tumi tumar favourite gaan ta shunia poro<br>
+  Tokon raag o uth to na amar o galli khawar chance ta kom hoibo😬
+</center></h2>
+<audio id="myAudio">
+  <source src="https://github.com/iwonder21/files/blob/main/mit.mp3" type="audio/mpeg">
+  <source src="mit.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<center>
+<H1>Play My Song</h1>
+
+<button onclick="playAudio()" type="button" class="button button1">Play Audio</button>
+<button onclick="pauseAudio()" type="button"class="button button2">Pause Audio</button> 
+
+<script>
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+function pauseAudio() { 
+  x.pause(); 
+} 
+</script></center>
+<p><h3>Here it begins</h3></p>
+<body>
+</body>
+</html>
